@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">#FF7043</color>
+    <color name="background_dark">#121820</color>
+    <color name="surface_dark">#1B222C</color>
+    
+    <color name="thermal_cool">#4CAF50</color>
+    <color name="thermal_warm">#FFA726</color>
+    <color name="thermal_hot">#FF5722</color>
+    <color name="thermal_critical">#D32F2F</color>
+</resources>
+

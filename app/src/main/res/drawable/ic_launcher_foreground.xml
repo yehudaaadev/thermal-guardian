@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M54,20 L78,28 C78,56 68,76 54,88 C40,76 30,56 30,28 Z" />
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,20 L54,88 C68,76 78,56 78,28 Z" />
+    <!-- Thermometer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 C51.8,42 50,43.8 50,46 L50,58.3 C47.6,59.8 46,62.7 46,66 C46,70.4 49.6,74 54,74 C58.4,74 62,70.4 62,66 C62,62.7 60.4,59.8 58,58.3 L58,46 C58,43.8 56.2,42 54,42 Z" />
+    <!-- Mercury -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M54,54 L54,66 A4,4 0 1,1 50,66 A4,4 0 0,1 54,54 Z" />
+</vector>
+

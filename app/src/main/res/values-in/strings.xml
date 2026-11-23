@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThermalGuard</string>
+    <string name="app_tagline">Pantau Suhu &amp; Cegah HP Panas Berlebih</string>
+    <string name="widget_description">Menampilkan suhu real-time dan status termal HP</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_causes">Penyebab</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Thermal Levels -->
+    <string name="thermal_level_cool">Normal</string>
+    <string name="thermal_level_warm">Hangat</string>
+    <string name="thermal_level_hot">Panas</string>
+    <string name="thermal_level_critical">Kritis</string>
+
+    <!-- System Thermal Status -->
+    <string name="thermal_status_none">Tanpa Throttling</string>
+    <string name="thermal_status_light">Throttling Ringan</string>
+    <string name="thermal_status_moderate">Throttling Sedang</string>
+    <string name="thermal_status_severe">Throttling Berat</string>
+    <string name="thermal_status_critical">Throttling Kritis</string>
+    <string name="thermal_status_emergency">Kondisi Darurat</string>
+    <string name="thermal_status_shutdown">HP Akan Mati (Proteksi)</string>
+    <string name="thermal_status_unknown">Status Tidak Tersedia</string>
+
+    <!-- Battery Status -->
+    <string name="battery_status_charging">Mengisi Daya</string>
+    <string name="battery_status_discharging">Menggunakan Baterai</string>
+    <string name="battery_status_full">Penuh</string>
+    <string name="battery_status_not_charging">Tidak Mengisi</string>
+    <string name="battery_status_unknown">Tidak Diketahui</string>
+
+    <!-- Battery Health -->
+    <string name="battery_health_good">Baik (Normal)</string>
+    <string name="battery_health_overheat">Terlalu Panas</string>
+    <string name="battery_health_dead">Rusak (Dead)</string>
+    <string name="battery_health_over_voltage">Tegangan Berlebih</string>
+    <string name="battery_health_failure">Gangguan Baterai</string>
+    <string name="battery_health_cold">Terlalu Dingin</string>
+    <string name="battery_health_unknown">Tidak Diketahui</string>
+
+    <!-- Service Controls & Metrics -->
+    <string name="service_running">Pemantauan Aktif</string>
+    <string name="service_stopped">Pemantauan Nonaktif</string>
+    <string name="btn_start_service">Mulai Pemantauan</string>
+    <string name="btn_stop_service">Hentikan Pemantauan</string>
+    <string name="label_temp_headroom">Headroom Termal</string>
+    <string name="label_temp_rate">Tren Suhu</string>
+    <string name="label_voltage">Tegangan</string>
+    <string name="label_health">Kesehatan</string>
+    <string name="label_technology">Teknologi</string>
+    <string name="label_power_source">Sumber Daya</string>
+
+    <!-- Suggestions -->
+    <string name="suggestions_title">Saran Pendinginan</string>
+    <string name="suggestion_brightness_title">Turunkan Kecerahan Layar</string>
+    <string name="suggestion_brightness_desc">Layar yang terlalu terang menghasilkan panas cukup tinggi.</string>
+    <string name="action_display_settings">Pengaturan Tampilan</string>
+
+    <string name="suggestion_hotspot_title">Matikan Hotspot</string>
+    <string name="suggestion_hotspot_desc">Tethering membebani modem dan modul Wi-Fi secara terus-menerus.</string>
+    <string name="action_hotspot_settings">Pengaturan Hotspot</string>
+
+    <string name="suggestion_charging_title">Hentikan Pengisian Daya</string>
+    <string name="suggestion_charging_desc">Mengisi daya saat suhu panas mempercepat kerusakan baterai.</string>
+
+    <string name="suggestion_case_title">Lepas Casing HP</string>
+    <string name="suggestion_case_desc">Casing tebal menjebak panas di dalam bodi HP.</string>
+
+    <string name="suggestion_apps_title">Tutup Aplikasi Latar Belakang</string>
+    <string name="suggestion_apps_desc">Aktivitas CPU yang tinggi membuat prosesor tetap panas.</string>
+    <string name="action_apps_settings">Pengaturan Aplikasi</string>
+
+    <string name="suggestion_refresh_rate_title">Kurangi Refresh Rate Layar</string>
+    <string name="suggestion_refresh_rate_desc">Beralih dari 120Hz ke 60Hz meringankan beban GPU.</string>
+
+    <!-- Hotspot Guard -->
+    <string name="hotspot_guard_title">Hotspot Guard</string>
+    <string name="hotspot_active">Hotspot Sedang Aktif</string>
+    <string name="hotspot_inactive">Hotspot Tidak Aktif</string>
+    <string name="hotspot_duration">Durasi Aktif: %1$s</string>
+    <string name="hotspot_warning">Hotspot sudah aktif lebih dari %1$d menit. Istirahatkan sejenak agar HP dingin.</string>
+
+    <!-- Heat Source Detector -->
+    <string name="causes_title">Sumber Panas &amp; Penggunaan</string>
+    <string name="causes_permission_title">Izin Akses Penggunaan Diperlukan</string>
+    <string name="causes_permission_desc">Untuk mendeteksi aplikasi apa yang memicu kenaikan suhu, ThermalGuard memerlukan izin Akses Penggunaan. Data diproses hanya di dalam perangkat.</string>
+    <string name="action_grant_permission">Beri Izin Akses Penggunaan</string>
+    <string name="top_active_apps">Aplikasi Paling Aktif (1 Jam Terakhir)</string>
+    <string name="potential_heat_sources">Kemungkinan Penyebab Panas</string>
+    <string name="foreground_time">Waktu Aktif: %1$d mnt</string>
+    <string name="no_apps_found">Tidak ditemukan penggunaan aplikasi berat.</string>
+
+    <!-- Game Mode -->
+    <string name="game_mode_title">Mode Game (Pemantau Termal)</string>
+    <string name="game_detected">Game terdeteksi: %1$s</string>
+    <string name="rapid_heating_alert">Kenaikan suhu cepat terdeteksi (+%1$.1f°C dlm %2$s)!</string>
+    <string name="normal_heating">Laju kenaikan suhu dalam batas wajar.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_status">Status Pemantauan Suhu</string>
+    <string name="notification_channel_status_desc">Notifikasi status suhu dan level termal berjalan</string>
+    <string name="notification_channel_alerts">Peringatan Suhu Panas</string>
+    <string name="notification_channel_alerts_desc">Peringatan saat suhu perangkat melebihi batas aman</string>
+
+    <string name="notification_warm_title">⚠️ HP Mulai Hangat (%1$s)</string>
+    <string name="notification_warm_body">Suhu mencapai %1$s. Disarankan menurunkan kecerahan layar.</string>
+
+    <string name="notification_hot_title">🔥 Peringatan Suhu Panas (%1$s)</string>
+    <string name="notification_hot_body">HP panas (%1$s). Matikan hotspot atau istirahatkan game sebentar.</string>
+
+    <string name="notification_critical_title">🚨 Peringatan Suhu Kritis (%1$s)</string>
+    <string name="notification_critical_body">Suhu darurat (%1$s)! Cabut charger dan diamkan HP sekarang.</string>
+
+    <string name="notification_game_rapid_title">⚡ Suhu Naik Cepat Saat Game (%1$s)</string>
+    <string name="notification_game_rapid_body">Suhu naik drastis saat bermain %1$s. Istirahatkan game sejenak.</string>
+
+    <string name="notification_hotspot_title">📡 Peringatan Termal Hotspot</string>
+    <string name="notification_hotspot_body">Hotspot aktif selama %1$s dan suhu telah mencapai %2$s.</string>
+
+    <string name="notification_charging_hot_title">🔌 Mengisi Daya Saat Panas (%1$s)</string>
+    <string name="notification_charging_hot_body">Suhu baterai tinggi saat charging. Cabut pengisi daya untuk menjaga kesehatan baterai.</string>
+    <string name="notification_charging_game_title">🎮 Mengisi Daya Saat Main Game (%1$s)</string>
+    <string name="notification_charging_game_body">Charging saat main game memicu lonjakan panas tinggi. Cabut charger atau istirahatkan game sejenak.</string>
+    <string name="notification_charging_hotspot_title">📡 Mengisi Daya Saat Hotspot Aktif (%1$s)</string>
+    <string name="notification_charging_hotspot_body">Charging bersamaan dengan tethering mempercepat kenaikan suhu baterai. Matikan hotspot atau jeda pengisian.</string>
+    <string name="notification_action_display">Layar</string>
+    <string name="notification_action_hotspot">Hotspot</string>
+    <string name="notification_action_apps">Aplikasi</string>
+    <string name="cpu_vs_battery_note">Suhu numerik di atas dibaca dari sensor baterai. Status termal sistem mencerminkan pelambatan (throttling) prosesor CPU/SoC.</string>
+
+    <!-- History & Stats -->
+    <string name="filter_1h">1 Jam</string>
+    <string name="filter_24h">24 Jam</string>
+    <string name="filter_7d">7 Hari</string>
+    <string name="stat_max_temp">Suhu Maks</string>
+    <string name="stat_avg_temp">Suhu Rata-rata</string>
+    <string name="stat_min_temp">Suhu Min</string>
+    <string name="stat_records_count">%1$d data tercatat</string>
+    <string name="daily_stats_title">Statistik Termal Harian</string>
+    <string name="daily_overheat_count">Kejadian Panas: %1$d kali</string>
+    <string name="daily_time_above_threshold">Durasi di Atas Suhu Aman: %1$s</string>
+    <string name="daily_hottest_hour">Puncak Suhu: %1$s pada %2$s</string>
+    <string name="btn_export_csv">Ekspor CSV</string>
+    <string name="csv_export_title">ThermalGuard_Riwayat_%1$s.csv</string>
+    <string name="csv_export_success">Riwayat suhu berhasil diekspor!</string>
+    <string name="csv_export_error">Gagal mengekspor riwayat suhu.</string>
+    <string name="csv_share_chooser">Bagikan File CSV Riwayat Suhu</string>
+    <string name="empty_history">Belum ada data riwayat suhu tercatat.</string>
+
+    <!-- Settings -->
+    <string name="settings_category_thresholds">Ambang Batas Suhu</string>
+    <string name="settings_threshold_warm">Ambang Alarm Hangat</string>
+    <string name="settings_threshold_hot">Ambang Alarm Panas</string>
+    <string name="settings_threshold_critical">Ambang Alarm Kritis</string>
+
+    <string name="settings_category_general">Preferensi Umum</string>
+    <string name="settings_unit">Satuan Suhu</string>
+    <string name="settings_unit_celsius">Celsius (°C)</string>
+    <string name="settings_unit_fahrenheit">Fahrenheit (°F)</string>
+    <string name="settings_interval">Interval Pemantauan</string>
+    <string name="settings_interval_adaptive">Adaptif (Otomatis)</string>
+    <string name="settings_interval_15s">15 Detik</string>
+    <string name="settings_interval_30s">30 Detik</string>
+    <string name="settings_interval_60s">60 Detik</string>
+
+    <string name="settings_category_alerts">Pengaturan Alarm</string>
+    <string name="settings_sound">Suara Alarm</string>
+    <string name="settings_sound_desc">Bunyikan nada dering pada peringatan panas dan kritis</string>
+    <string name="settings_vibration">Getaran</string>
+    <string name="settings_vibration_desc">Getarkan HP saat suhu melampaui batas aman</string>
+    <string name="settings_cooldown">Jeda Pengingat (Cooldown)</string>
+    <string name="settings_cooldown_desc">Interval jeda antar notifikasi level yang sama (%1$d menit)</string>
+
+    <string name="settings_category_data">Data &amp; Retensi</string>
+    <string name="settings_retention">Masa Simpan Riwayat</string>
+    <string name="settings_retention_days">%1$d Hari</string>
+    <string name="settings_clear_history">Hapus Seluruh Riwayat</string>
+    <string name="settings_clear_history_confirm">Apakah Anda yakin ingin menghapus semua catatan riwayat suhu?</string>
+    <string name="dialog_confirm">Hapus</string>
+    <string name="dialog_cancel">Batal</string>
+
+    <string name="settings_category_appearance">Tampilan &amp; Bahasa</string>
+    <string name="settings_theme">Tema Aplikasi</string>
+    <string name="settings_theme_system">Ikuti Sistem</string>
+    <string name="settings_theme_light">Terang</string>
+    <string name="settings_theme_dark">Gelap</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_language_system">Ikuti Sistem</string>
+    <string name="settings_language_id">Bahasa Indonesia</string>
+    <string name="settings_language_en">English</string>
+
+    <string name="settings_category_about">Tentang Aplikasi</string>
+    <string name="settings_about_desc">Aplikasi pemantau termal native Android (Kotlin + Jetpack Compose) tanpa ketergantungan Google Play Services. Dioptimalkan untuk Huawei HarmonyOS/EMUI dan Android pada umumnya.</string>
+    <string name="settings_version">Versi %1$s</string>
+
+    <!-- Onboarding & Huawei Guide -->
+    <string name="onboarding_title">Selamat Datang di ThermalGuard</string>
+    <string name="onboarding_subtitle">Jaga suhu HP tetap dingin, cegah pelambatan sistem, dan lindungi kesehatan baterai Anda.</string>
+    <string name="onboarding_permission_notification_title">1. Aktifkan Izin Notifikasi</string>
+    <string name="onboarding_permission_notification_desc">Dibutuhkan untuk menampilkan suhu di status bar dan mengirim peringatan dini saat HP mulai panas.</string>
+    <string name="onboarding_permission_usage_title">2. Izin Akses Penggunaan (Opsional)</string>
+    <string name="onboarding_permission_usage_desc">Memungkinkan aplikasi mendeteksi aplikasi apa yang membebani prosesor dan menghasilkan panas.</string>
+    <string name="onboarding_huawei_title">3. Panduan Khusus Huawei / EMUI / HarmonyOS</string>
+    <string name="onboarding_huawei_desc">Sistem EMUI/HarmonyOS sangat agresif mematikan service di latar belakang. Atur peluncuran manual agar pemantauan tidak terputus:</string>
+    <string name="huawei_step_1">1. Buka Pengaturan &gt; Baterai &gt; Peluncuran Aplikasi (App Launch).</string>
+    <string name="huawei_step_2">2. Cari "ThermalGuard" dan matikan "Kelola otomatis".</string>
+    <string name="huawei_step_3">3. Aktifkan "Peluncuran otomatis", "Peluncuran sekunder", dan "Jalankan di latar belakang".</string>
+    <string name="btn_open_app_launch">Buka Pengaturan Peluncuran Aplikasi</string>
+    <string name="btn_open_battery_opt">Buka Pengaturan Optimasi Baterai</string>
+    <string name="btn_get_started">Mulai Sekarang</string>
+    <string name="btn_skip">Lewati</string>
+    <string name="btn_continue">Lanjutkan</string>
+
+    <!-- Quick Settings Tile -->
+    <string name="qs_tile_label">ThermalGuard</string>
+    <string name="qs_tile_state_active">Pemantauan Aktif (%1$s)</string>
+    <string name="qs_tile_state_inactive">Pemantauan Nonaktif</string>
+
+    <!-- Navigation Tools -->
+    <string name="nav_tools">Alat</string>
+    <string name="tools_title">Diagnostik &amp; Alat Termal</string>
+    <string name="tools_subtitle">Benchmark, overlay mengambang, dan stopwatch pendinginan</string>
+
+    <!-- Floating Overlay HUD -->
+    <string name="tools_hud_title">HUD Termal Mengambang</string>
+    <string name="tools_hud_desc">Tampilkan gelembung suhu langsung di atas game atau aplikasi lain.</string>
+    <string name="tools_hud_enable">Aktifkan HUD Mengambang</string>
+    <string name="tools_hud_permission_dialog_title">Izin Diperlukan</string>
+    <string name="tools_hud_permission_dialog_desc">Menampilkan HUD termal memerlukan izin \'Tampilkan di atas aplikasi lain\'. Ketuk di bawah untuk mengaktifkannya.</string>
+    <string name="tools_hud_permission_grant">Buka Pengaturan Izin</string>
+
+    <!-- Stress Test -->
+    <string name="stress_test_title">Benchmark Uji Beban Termal</string>
+    <string name="stress_test_desc">Menguji kemampuan pelepasan panas HP di bawah beban kerja komputasi multi-core.</string>
+    <string name="stress_test_safety_note">Dilengkapi pengaman pemutus otomatis di 42.0°C untuk melindungi perangkat keras Anda.</string>
+    <string name="stress_test_duration_15s">15 dtk Cepat</string>
+    <string name="stress_test_duration_30s">30 dtk Standar</string>
+    <string name="stress_test_duration_60s">60 dtk Berat</string>
+    <string name="stress_test_btn_start">Mulai Uji Beban</string>
+    <string name="stress_test_btn_cancel">Hentikan Uji</string>
+    <string name="stress_test_running">Pengujian sedang berlangsung: %1$d dtk / %2$d dtk</string>
+    <string name="stress_test_result_title">Hasil Uji Beban</string>
+    <string name="stress_test_score_label">Skor Pelepasan Panas</string>
+    <string name="stress_test_delta">Kenaikan Suhu: +%1$.1f°C</string>
+    <string name="stress_test_start_temp">Awal: %1$s</string>
+    <string name="stress_test_peak_temp">Puncak: %1$s</string>
+    <string name="stress_test_rating_excellent">Pelepasan Termal Sangat Baik</string>
+    <string name="stress_test_rating_good">Kontrol Termal Baik</string>
+    <string name="stress_test_rating_moderate">Penyimpanan Panas Sedang</string>
+    <string name="stress_test_rating_poor">Cepat Panas / Throttling Tinggi</string>
+    <string name="stress_test_aborted_warning">Pengujian dihentikan otomatis di 42.0°C demi keamanan perangkat!</string>
+
+    <!-- Cooling Timer -->
+    <string name="cooling_timer_title">Stopwatch Pendinginan</string>
+    <string name="cooling_timer_desc">Ukur seberapa cepat suhu HP Anda turun setelah bermain game atau tugas berat.</string>
+    <string name="cooling_timer_start">Mulai Stopwatch Pendinginan</string>
+    <string name="cooling_timer_stop">Hentikan Stopwatch</string>
+    <string name="cooling_timer_running">Waktu pendinginan: %1$d dtk</string>
+    <string name="cooling_timer_drop">Suhu telah turun: %1$.1f°C</string>
+    <string name="cooling_timer_rate">Laju pendinginan: %1$.2f°C/mnt</string>
+    <string name="cooling_timer_target_reached">Target pendinginan tercapai!</string>
+
+    <!-- System Diagnostic Share -->
+    <string name="tools_diag_title">Laporan Diagnostik Termal</string>
+    <string name="tools_diag_desc">Buat dan bagikan ringkasan kesehatan suhu perangkat secara komprehensif.</string>
+    <string name="btn_share_diag_report">Bagikan Laporan Diagnostik</string>
+    <string name="diag_report_subject">Laporan Diagnostik ThermalGuard</string>
+
+    <!-- Advanced Settings: Calibration, Quiet Hours, Battery Alarm -->
+    <string name="settings_category_advanced">Alat &amp; Proteksi Lanjutan</string>
+    <string name="settings_calibration_title">Kalibrasi Offset Sensor</string>
+    <string name="settings_calibration_desc">Sesuaikan pembacaan sensor jika berbeda dengan kondisi fisik perangkat.</string>
+    <string name="settings_calibration_offset">Offset: %1$+.1f°C</string>
+    <string name="settings_quiet_hours_title">Jam Tenang (Malam Hari)</string>
+    <string name="settings_quiet_hours_desc">Senyapkan peringatan hangat &amp; panas antara 22:00 - 06:00. Peringatan darurat kritis tetap berbunyi.</string>
+    <string name="settings_charge_alarm_title">Alarm Batas Pengisian Baterai</string>
+    <string name="settings_charge_alarm_desc">Beri tahu saat baterai mencapai persentase target saat dicas untuk menghemat siklus baterai &amp; kurangi panas.</string>
+    <string name="settings_charge_alarm_target">Target Cas: %1$d%%</string>
+    <string name="notification_battery_limit_title">🔋 Baterai Mencapai %1$d%%</string>
+    <string name="notification_battery_limit_body">Baterai telah terisi %1$d%%. Cabut charger untuk mencegah panas berlebih dan menjaga kesehatan baterai.</string>
+
+    <!-- Causes Screen Impact Badges -->
+    <string name="causes_heat_impact_title">Estimasi Beban Termal</string>
+    <string name="causes_heat_impact_high">Beban Termal Tinggi</string>
+    <string name="causes_heat_impact_med">Beban Termal Sedang</string>
+    <string name="causes_heat_impact_low">Beban Termal Rendah</string>
+    <string name="causes_heat_tip">Game 3D dan siaran langsung video menghasilkan beban panas 2.5x lebih besar karena menguras GPU dan modem secara bersamaan.</string>
+</resources>
+

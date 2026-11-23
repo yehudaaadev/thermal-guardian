@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThermalGuard</string>
+    <string name="app_tagline">Smart Thermal &amp; Overheat Protection</string>
+    <string name="widget_description">Display real-time device temperature and thermal status</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_causes">Causes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Thermal Levels -->
+    <string name="thermal_level_cool">Normal</string>
+    <string name="thermal_level_warm">Warm</string>
+    <string name="thermal_level_hot">Hot</string>
+    <string name="thermal_level_critical">Critical</string>
+
+    <!-- System Thermal Status -->
+    <string name="thermal_status_none">No Throttling</string>
+    <string name="thermal_status_light">Light Throttling</string>
+    <string name="thermal_status_moderate">Moderate Throttling</string>
+    <string name="thermal_status_severe">Severe Throttling</string>
+    <string name="thermal_status_critical">Critical Throttling</string>
+    <string name="thermal_status_emergency">Emergency State</string>
+    <string name="thermal_status_shutdown">Shutdown Imminent</string>
+    <string name="thermal_status_unknown">Status Unavailable</string>
+
+    <!-- Battery Status -->
+    <string name="battery_status_charging">Charging</string>
+    <string name="battery_status_discharging">Discharging</string>
+    <string name="battery_status_full">Full</string>
+    <string name="battery_status_not_charging">Not Charging</string>
+    <string name="battery_status_unknown">Unknown</string>
+
+    <!-- Battery Health -->
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheated</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over Voltage</string>
+    <string name="battery_health_failure">Unspecified Failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+
+    <!-- Service Controls & Metrics -->
+    <string name="service_running">Monitoring Active</string>
+    <string name="service_stopped">Monitoring Inactive</string>
+    <string name="btn_start_service">Start Monitoring</string>
+    <string name="btn_stop_service">Stop Monitoring</string>
+    <string name="label_temp_headroom">Thermal Headroom</string>
+    <string name="label_temp_rate">Temp Trend</string>
+    <string name="label_voltage">Voltage</string>
+    <string name="label_health">Health</string>
+    <string name="label_technology">Technology</string>
+    <string name="label_power_source">Source</string>
+
+    <!-- Suggestions -->
+    <string name="suggestions_title">Cooling Recommendations</string>
+    <string name="suggestion_brightness_title">Reduce Screen Brightness</string>
+    <string name="suggestion_brightness_desc">High brightness generates significant display heat.</string>
+    <string name="action_display_settings">Display Settings</string>
+
+    <string name="suggestion_hotspot_title">Turn Off Hotspot</string>
+    <string name="suggestion_hotspot_desc">Tethering causes continuous modem and Wi-Fi chip heating.</string>
+    <string name="action_hotspot_settings">Hotspot Settings</string>
+
+    <string name="suggestion_charging_title">Pause Charging</string>
+    <string name="suggestion_charging_desc">Charging while warm accelerates battery degradation.</string>
+
+    <string name="suggestion_case_title">Remove Phone Case</string>
+    <string name="suggestion_case_desc">Thick cases trap heat inside the phone body.</string>
+
+    <string name="suggestion_apps_title">Close Heavy Background Apps</string>
+    <string name="suggestion_apps_desc">High CPU activity keeps the processor running hot.</string>
+    <string name="action_apps_settings">Apps Settings</string>
+
+    <string name="suggestion_refresh_rate_title">Lower Refresh Rate</string>
+    <string name="suggestion_refresh_rate_desc">Switching from 120Hz to 60Hz reduces GPU load.</string>
+
+    <!-- Hotspot Guard -->
+    <string name="hotspot_guard_title">Hotspot Guard</string>
+    <string name="hotspot_active">Hotspot is Active</string>
+    <string name="hotspot_inactive">Hotspot is Inactive</string>
+    <string name="hotspot_duration">Active Duration: %1$s</string>
+    <string name="hotspot_warning">Hotspot running for over %1$d mins. Consider giving it a break to cool down.</string>
+
+    <!-- Heat Source Detector -->
+    <string name="causes_title">Heat Sources &amp; Usage</string>
+    <string name="causes_permission_title">Usage Access Required</string>
+    <string name="causes_permission_desc">To identify which apps are causing your phone to heat up, ThermalGuard needs Usage Access permission. Data is processed strictly on-device.</string>
+    <string name="action_grant_permission">Grant Usage Access</string>
+    <string name="top_active_apps">Most Active Apps (Last Hour)</string>
+    <string name="potential_heat_sources">Potential Heat Causes</string>
+    <string name="foreground_time">Foreground: %1$d mins</string>
+    <string name="no_apps_found">No heavy foreground app usage detected.</string>
+
+    <!-- Game Mode -->
+    <string name="game_mode_title">Game Mode Thermal Monitor</string>
+    <string name="game_detected">Game active: %1$s</string>
+    <string name="rapid_heating_alert">Rapid temperature increase detected (+%1$.1f°C in %2$s)!</string>
+    <string name="normal_heating">Temperature rise is within normal range.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_status">Thermal Monitoring Status</string>
+    <string name="notification_channel_status_desc">Ongoing temperature and system thermal status</string>
+    <string name="notification_channel_alerts">Thermal Overheat Alerts</string>
+    <string name="notification_channel_alerts_desc">Alerts when device temperature exceeds safe limits</string>
+
+    <string name="notification_warm_title">⚠️ Phone is Getting Warm (%1$s)</string>
+    <string name="notification_warm_body">Temperature reached %1$s. Consider reducing screen brightness.</string>
+
+    <string name="notification_hot_title">🔥 High Temperature Alert (%1$s)</string>
+    <string name="notification_hot_body">Device is hot (%1$s). Turn off hotspot or pause gaming.</string>
+
+    <string name="notification_critical_title">🚨 Critical Overheat Warning (%1$s)</string>
+    <string name="notification_critical_body">Emergency temperature (%1$s)! Unplug charger and let phone cool down immediately.</string>
+
+    <string name="notification_game_rapid_title">⚡ Rapid Heating in Game (%1$s)</string>
+    <string name="notification_game_rapid_body">Temperature rose quickly while playing %1$s. Take a short pause.</string>
+
+    <string name="notification_hotspot_title">📡 Hotspot Thermal Alert</string>
+    <string name="notification_hotspot_body">Hotspot has been running for %1$s and temperature is %2$s.</string>
+
+    <string name="notification_charging_hot_title">🔌 Charging While Hot (%1$s)</string>
+    <string name="notification_charging_hot_body">Battery temperature is high while charging. Unplug to prevent battery wear.</string>
+    <string name="notification_charging_game_title">🎮 Charging While Gaming (%1$s)</string>
+    <string name="notification_charging_game_body">Charging while playing games causes severe heat. Unplug charger or pause your game.</string>
+    <string name="notification_charging_hotspot_title">📡 Charging With Hotspot (%1$s)</string>
+    <string name="notification_charging_hotspot_body">Charging while tethering increases battery temperature rapidly. Consider disabling hotspot or pausing charging.</string>
+    <string name="notification_action_display">Display</string>
+    <string name="notification_action_hotspot">Hotspot</string>
+    <string name="notification_action_apps">Apps</string>
+    <string name="cpu_vs_battery_note">Numeric temperature reflects the battery sensor. System thermal status reflects processor (CPU/SoC) throttling.</string>
+
+    <!-- History & Stats -->
+    <string name="filter_1h">1 Hour</string>
+    <string name="filter_24h">24 Hours</string>
+    <string name="filter_7d">7 Days</string>
+    <string name="stat_max_temp">Max Temp</string>
+    <string name="stat_avg_temp">Avg Temp</string>
+    <string name="stat_min_temp">Min Temp</string>
+    <string name="stat_records_count">%1$d readings</string>
+    <string name="daily_stats_title">Daily Thermal Statistics</string>
+    <string name="daily_overheat_count">Overheat Events: %1$d</string>
+    <string name="daily_time_above_threshold">Time Above Safe Temp: %1$s</string>
+    <string name="daily_hottest_hour">Peak Temp: %1$s at %2$s</string>
+    <string name="btn_export_csv">Export CSV</string>
+    <string name="csv_export_title">ThermalGuard_History_%1$s.csv</string>
+    <string name="csv_export_success">History exported successfully!</string>
+    <string name="csv_export_error">Failed to export history.</string>
+    <string name="csv_share_chooser">Share Temperature History CSV</string>
+    <string name="empty_history">No temperature history recorded yet.</string>
+
+    <!-- Settings -->
+    <string name="settings_category_thresholds">Temperature Thresholds</string>
+    <string name="settings_threshold_warm">Warm Alert Threshold</string>
+    <string name="settings_threshold_hot">Hot Alert Threshold</string>
+    <string name="settings_threshold_critical">Critical Alert Threshold</string>
+
+    <string name="settings_category_general">General Preferences</string>
+    <string name="settings_unit">Temperature Unit</string>
+    <string name="settings_unit_celsius">Celsius (°C)</string>
+    <string name="settings_unit_fahrenheit">Fahrenheit (°F)</string>
+    <string name="settings_interval">Monitoring Interval</string>
+    <string name="settings_interval_adaptive">Adaptive (Auto)</string>
+    <string name="settings_interval_15s">15 Seconds</string>
+    <string name="settings_interval_30s">30 Seconds</string>
+    <string name="settings_interval_60s">60 Seconds</string>
+
+    <string name="settings_category_alerts">Alert Behavior</string>
+    <string name="settings_sound">Alert Sound</string>
+    <string name="settings_sound_desc">Play sound on warning and critical alerts</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_desc">Vibrate phone when temperature exceeds thresholds</string>
+    <string name="settings_cooldown">Alert Cooldown</string>
+    <string name="settings_cooldown_desc">Minimum interval between duplicate level alerts (%1$d mins)</string>
+
+    <string name="settings_category_data">Data &amp; Retention</string>
+    <string name="settings_retention">Data Retention Period</string>
+    <string name="settings_retention_days">%1$d Days</string>
+    <string name="settings_clear_history">Clear All History</string>
+    <string name="settings_clear_history_confirm">Are you sure you want to delete all temperature records?</string>
+    <string name="dialog_confirm">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="settings_category_appearance">Appearance &amp; Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System Default</string>
+    <string name="settings_language_id">Bahasa Indonesia</string>
+    <string name="settings_language_en">English</string>
+
+    <string name="settings_category_about">About</string>
+    <string name="settings_about_desc">Native Android (Kotlin + Jetpack Compose) thermal monitor without Google Play Services dependencies. Optimized for Huawei HarmonyOS/EMUI and standard Android.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Onboarding & Huawei Guide -->
+    <string name="onboarding_title">Welcome to ThermalGuard</string>
+    <string name="onboarding_subtitle">Keep your phone cool, prevent throttling, and protect battery lifespan.</string>
+    <string name="onboarding_permission_notification_title">1. Enable Notifications</string>
+    <string name="onboarding_permission_notification_desc">Required to show ongoing temperature status in status bar and prompt overheat warnings.</string>
+    <string name="onboarding_permission_usage_title">2. Usage Access (Optional)</string>
+    <string name="onboarding_permission_usage_desc">Allows identifying apps that consume excessive CPU and produce heat when device warms up.</string>
+    <string name="onboarding_huawei_title">3. Huawei / OEM Background Guide</string>
+    <string name="onboarding_huawei_desc">EMUI and HarmonyOS aggressively kill background monitoring. Configure manual launch settings to keep ThermalGuard running reliably:</string>
+    <string name="huawei_step_1">1. Open Settings &gt; Battery &gt; App Launch.</string>
+    <string name="huawei_step_2">2. Find "ThermalGuard" and turn OFF "Manage automatically".</string>
+    <string name="huawei_step_3">3. Enable "Auto-launch", "Secondary launch", and "Run in background".</string>
+    <string name="btn_open_app_launch">Open App Launch Settings</string>
+    <string name="btn_open_battery_opt">Open Battery Optimization</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_continue">Continue</string>
+
+    <!-- Quick Settings Tile -->
+    <string name="qs_tile_label">ThermalGuard</string>
+    <string name="qs_tile_state_active">Monitoring Active (%1$s)</string>
+    <string name="qs_tile_state_inactive">Monitoring Off</string>
+
+    <!-- Navigation Tools -->
+    <string name="nav_tools">Tools</string>
+    <string name="tools_title">Thermal Diagnostic &amp; Tools</string>
+    <string name="tools_subtitle">Benchmark, real-time overlay, and cooling speed stopwatch</string>
+
+    <!-- Floating Overlay HUD -->
+    <string name="tools_hud_title">Floating Thermal HUD</string>
+    <string name="tools_hud_desc">Display a small draggable live temperature bubble over games and other apps.</string>
+    <string name="tools_hud_enable">Enable Floating HUD</string>
+    <string name="tools_hud_permission_dialog_title">Permission Required</string>
+    <string name="tools_hud_permission_dialog_desc">Displaying the floating thermal HUD requires the \'Appear on top\' permission. Tap below to enable it.</string>
+    <string name="tools_hud_permission_grant">Open Overlay Settings</string>
+
+    <!-- Stress Test -->
+    <string name="stress_test_title">Thermal Stress Benchmark</string>
+    <string name="stress_test_desc">Tests device heat dissipation efficiency under simulated multi-core compute workload.</string>
+    <string name="stress_test_safety_note">Equipped with automatic safety cutoff at 42.0°C to protect your hardware.</string>
+    <string name="stress_test_duration_15s">15s Quick</string>
+    <string name="stress_test_duration_30s">30s Standard</string>
+    <string name="stress_test_duration_60s">60s Heavy</string>
+    <string name="stress_test_btn_start">Start Benchmark</string>
+    <string name="stress_test_btn_cancel">Abort Benchmark</string>
+    <string name="stress_test_running">Benchmark in progress: %1$ds / %2$ds</string>
+    <string name="stress_test_result_title">Benchmark Results</string>
+    <string name="stress_test_score_label">Dissipation Score</string>
+    <string name="stress_test_delta">Temp Rise: +%1$.1f°C</string>
+    <string name="stress_test_start_temp">Initial: %1$s</string>
+    <string name="stress_test_peak_temp">Peak: %1$s</string>
+    <string name="stress_test_rating_excellent">Excellent Thermal Dissipation</string>
+    <string name="stress_test_rating_good">Good Thermal Control</string>
+    <string name="stress_test_rating_moderate">Moderate Heat Retention</string>
+    <string name="stress_test_rating_poor">High Thermal Throttling</string>
+    <string name="stress_test_aborted_warning">Test auto-aborted at 42.0°C for hardware safety!</string>
+
+    <!-- Cooling Timer -->
+    <string name="cooling_timer_title">Cooling Stopwatch</string>
+    <string name="cooling_timer_desc">Measures how quickly your phone cools down after gaming or heavy tasks.</string>
+    <string name="cooling_timer_start">Start Cooling Timer</string>
+    <string name="cooling_timer_stop">Stop Timer</string>
+    <string name="cooling_timer_running">Cooling elapsed: %1$ds</string>
+    <string name="cooling_timer_drop">Temperature dropped: %1$.1f°C</string>
+    <string name="cooling_timer_rate">Dissipation rate: %1$.2f°C/min</string>
+    <string name="cooling_timer_target_reached">Cool down target reached!</string>
+
+    <!-- System Diagnostic Share -->
+    <string name="tools_diag_title">Thermal Diagnostic Report</string>
+    <string name="tools_diag_desc">Generate and share a comprehensive device thermal health summary report.</string>
+    <string name="btn_share_diag_report">Share Diagnostic Report</string>
+    <string name="diag_report_subject">ThermalGuard Diagnostic Report</string>
+
+    <!-- Advanced Settings: Calibration, Quiet Hours, Battery Alarm -->
+    <string name="settings_category_advanced">Advanced Thermal Tools</string>
+    <string name="settings_calibration_title">Sensor Calibration Offset</string>
+    <string name="settings_calibration_desc">Fine-tune battery sensor reading if physical temperature differs.</string>
+    <string name="settings_calibration_offset">Offset: %1$+.1f°C</string>
+    <string name="settings_quiet_hours_title">Quiet Hours</string>
+    <string name="settings_quiet_hours_desc">Silence non-critical thermal alerts between 22:00 and 06:00. Critical alerts remain active.</string>
+    <string name="settings_charge_alarm_title">Battery Charge Limit Alarm</string>
+    <string name="settings_charge_alarm_desc">Alerts when battery reaches target charge level while plugged in to preserve lithium longevity and reduce heat.</string>
+    <string name="settings_charge_alarm_target">Target Charge: %1$d%%</string>
+    <string name="notification_battery_limit_title">🔋 Battery Reached %1$d%%</string>
+    <string name="notification_battery_limit_body">Device has reached your %1$d%% target charge. Unplug now to reduce heat and prolong battery health.</string>
+
+    <!-- Causes Screen Impact Badges -->
+    <string name="causes_heat_impact_title">Estimated Thermal Impact</string>
+    <string name="causes_heat_impact_high">High Heat Impact</string>
+    <string name="causes_heat_impact_med">Moderate Impact</string>
+    <string name="causes_heat_impact_low">Low Impact</string>
+    <string name="causes_heat_tip">3D gaming and live video streaming typically produce 2.5x more thermal dissipation due to simultaneous GPU and radio usage.</string>
+</resources>
+
