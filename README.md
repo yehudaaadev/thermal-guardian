@@ -12,6 +12,28 @@ Dioptimalkan khusus untuk perangkat Android standar serta **Huawei HarmonyOS / E
 
 ---
 
+## Unduh Langsung Aplikasi (Direct APK Download)
+
+Pilih berkas instalasi APK yang sesuai dengan tahun rilis dan spesifikasi perangkat smartphone Anda:
+
+| Arsitektur CPU | Rekomendasi Tipe HP | Tautan Unduhan Langsung | Ukuran & Kompatibilitas |
+|---|---|---|---|
+| **64-bit (`arm64-v8a`)** | **HP Rilis 2017 ke Atas** *(Modern)* | [Unduh ThermalGuard 64-bit APK](https://github.com/yehudaaadev/thermal-guardian/releases/download/v1.0.0/ThermalGuard-v1.0.0-arm64-v8a.apk) | ~17 MB · Dioptimalkan untuk 95% smartphone masa kini (Android 8.0 - 14+, Snapdragon, MediaTek, Kirin, Exynos 64-bit). Paling hemat daya & responsif. |
+| **32-bit (`armeabi-v7a`)** | **HP Rilis 2017 ke Bawah** *(Lawas)* | [Unduh ThermalGuard 32-bit APK](https://github.com/yehudaaadev/thermal-guardian/releases/download/v1.0.0/ThermalGuard-v1.0.0-armeabi-v7a.apk) | ~17 MB · Khusus untuk smartphone jadul, chipset 32-bit, atau perangkat Android entry-level agar tetap stabil dan ringan. |
+| **Universal APK** | Seluruh Perangkat Android | [Unduh ThermalGuard Universal APK](https://github.com/yehudaaadev/thermal-guardian/releases/download/v1.0.0/ThermalGuard-v1.0.0-universal.apk) | ~17 MB · Kompatibel secara universal pada semua arsitektur prosesor Android. |
+
+### Panduan Memilih Versi yang Tepat:
+- **Pilih Versi 64-bit (`arm64-v8a`)**: Jika smartphone Anda dibeli atau dirilis pada tahun **2017 hingga sekarang** (misal: Samsung Galaxy seri A/M/S modern, Xiaomi Redmi Note 5 ke atas, Poco, Oppo, Vivo, Realme, Infinix, Huawei P30/P50). Versi ini mengeksekusi instruksi 64-bit penuh sehingga sensor dan background service bekerja lebih ringan.
+- **Pilih Versi 32-bit (`armeabi-v7a`)**: Jika Anda menggunakan smartphone keluaran tahun **2017 ke bawah** atau HP dengan arsitektur prosesor 32-bit lawas agar tidak terjadi kendala inkompatibilitas instruksi biner.
+
+#### Langkah Instalasi di HP:
+1. Klik salah satu tautan unduhan langsung di atas menggunakan peramban HP Anda (Chrome, Samsung Internet, atau Browser bawaan).
+2. Setelah unduhan selesai, buka berkas `.apk`.
+3. Aktifkan opsi **"Izinkan penginstalan dari sumber ini"** jika sistem Android meminta konfirmasi keamanan.
+4. Tekan **Instal**, buka ThermalGuard, dan berikan izin notifikasi agar pemantauan suhu aktif di bilah status.
+
+---
+
 ## Arsitektur Sistem & Fitur Unggulan
 
 ### 1. Modul Pemantauan & Kesehatan Termal
